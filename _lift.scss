@@ -1,0 +1,6 @@
+@import "liftr/bootstrap";
+@import "bootstrap-datepicker";
+
+@include load-js("bootstrap-datepicker", "bootstrap-datepicker/js/bootstrap-datepicker");
+
+@include lifted("bootstrap-datepicker");
